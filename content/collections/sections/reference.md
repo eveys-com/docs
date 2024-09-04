@@ -1,8 +1,8 @@
 ---
 id: 3e260b43-aa71-43b6-832e-1ebf2f59f39b
 blueprint: sections
-title: Reference
-intro: 'Find lists of Statamic''s different types of features along with their respective options, parameters, and variables.'
+title: Referanslar
+intro: "Eveys'in farklı özellik türlerini, bunlara ait seçenekleri, parametreleri ve değişkenleri içeren listeleri bulun."
 template: reference.index
 section: reference
 content_width: w-full

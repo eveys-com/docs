@@ -1,8 +1,8 @@
 ---
 id: 18bceaa7-64fb-4587-9e0e-b52e8de52f8e
 blueprint: sections
-title: Screencasts
-section: screencasts
+title: İçerikler
+section: içerikler
 content_width: w-full
-redirect: https://youtube.com/statamic
+redirect: https://youtube.com/eveys
 ---

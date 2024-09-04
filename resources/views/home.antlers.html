@@ -1,23 +1,23 @@
 <header class="markdown">
-    <h1>Learn Statamic</h1>
+    <h1>Eveys Geliştirici Merkezi</h1>
     <div class="max-w-2xl text-xl">{{ intro | widont }}</div>
 </header>
 
 <div class="bg-gradient-to-br from-gray-lightest to-mint mt-8 md:mt-12 p-4 md:py-5 md:px-8 border shadow-stack dark:bg-none dark:bg-gray-darkest dark:text-white dark:shadow-none">
     <div class="flex flex-col md:flex-row items-center">
         <div class="flex-1">
-            <h2 class="font-display text-3xl font-semibold mb-2">Get Started</h2>
-            <p>There's more than one way to get started with Statamic.</p>
+            <h2 class="font-display text-3xl font-semibold mb-2">Geliştirmeye Başlayın</h2>
+            <p>Eveys ile başlamak için birden fazla yol var.</p>
             <div class="flex flex-wrap md:space-x-4 mt-6">
-                <a href="/installing/local" class="button pr-3">Local Install &rarr;</a>
-                <a href="/quick-start-guide" class="hidden md:block button bg-mint">Quick Start Guide</a>
+                <a href="/installing/local" class="button pr-3">Yerel Kurulum &rarr;</a>
+                <a href="/quick-start-guide" class="hidden md:block button bg-mint">Hızlı Başlangıç Kılavuzu</a>
             </div>
             <div class="hidden md:flex flex-wrap space-x-4 mt-6">
                 {{# <a href="" class="button button-small">Local Environment Setup</a> #}}
-                <a href="/installing/laravel" class="button button-small">Laravel</a>
-                <a href="/installing/docker" class="button button-small">Docker</a>
-                <a href="/installing/ubuntu" class="button button-small">Ubuntu</a>
-                <a href="/starter-kits" class="button button-small">Starter Kits</a>
+                <a href="/installing/laravel" class="button button-small">EVEYS API</a>
+                <a href="/installing/docker" class="button button-small">OCPP</a>
+                <a href="/installing/ubuntu" class="button button-small">OCPI</a>
+                <a href="/starter-kits" class="button button-small">Başlangıç Kitleri</a>
             </div>
         </div>
         <div class="md:w-96 mt-4 md:m-0 md:pl-8">
@@ -28,29 +28,29 @@
 
 <div class="bg-black shadow-stack mt-6 py-5 px-8 text-white hidden md:flex items-center dark:bg-pink dark:shadow-none">
     <img src="/img/retro-tv.svg" alt="A retro tv" class="mr-2">
-    <p class="text-center flex-1">Check out <b class="text-yellow">Learn Statamic with Jack</b> &mdash; our Laracasts CreatorSeries!</p>
-    <a href="https://laracasts.com/series/learn-statamic-with-jack" class="button">Watch &amp; Learn</a>
+    <p class="text-center flex-1">Eveys 'in geliştiriclerinden <b class="text-yellow">Emrullah ve Mostafa</b> &mdash; ile Eveys Öğrenin!</p>
+    <a href="https://laracasts.com/series/learn-statamic-with-jack" class="button">İzle &amp; Öğren</a>
 </div>
 
 <div class="grid md:grid-cols-3 gap-y-6 md:gap-6 mt-6">
     {{# <a href="/screencasts" class="bg-white border shadow-stack-sm text-center hover:shadow-stack-yellow-sm rounded-sm p-5 hover:bg-gradient-to-tl from-gray-lightest">
         <img src="/img/tv.svg" alt="Retro TV Set" class="h-16 mb-4 mx-auto">
             <h2 class="text-2xl mb-2 font-bold font-display">Screencasts</h2>
-        <p class="text-sm font-mono-alt">Tips, tricks, and tutorials on how to build with Statamic.</p>
+        <p class="text-sm font-mono-alt">Eveys ile nasıl inşa edileceğine dair ipuçları, püf noktaları ve eğitimler.</p>
     </a> #}}
     <a href="/screencasts" class="bg-white border shadow-stack-sm hover:shadow-stack-yellow-sm rounded-sm p-5 hover:bg-gradient-to-tl from-gray-lightest dark:bg-none dark:bg-gray-darkest dark:text-white dark:shadow-none">
         <header class="flex items-center mb-3">
             <img src="/img/tv.svg" alt="Retro TV Set" class="relative top-[-2px] transform rotate-[-7deg] -left-1">
-            <h2 class="text-2xl ml-2 font-bold font-display">Watch + Learn</h2>
+            <h2 class="text-2xl ml-2 font-bold font-display">İzle + Öğren</h2>
         </header>
-        <p class="text-sm font-mono-alt">Tips, tricks, and tutorials on how to build with Statamic.</p>
+        <p class="text-sm font-mono-alt">Eveys ile nasıl inşa edileceğine dair ipuçları, püf noktaları ve eğitimler.</p>
     </a>
     <a href="/upgrade-guide" class="bg-white border shadow-stack-sm hover:shadow-stack-yellow-sm rounded-sm p-5 hover:bg-gradient-to-tl from-gray-lightest dark:bg-none dark:bg-gray-darkest dark:text-white dark:shadow-none">
         <header class="flex items-center mb-3">
             <img src="/img/car.svg" alt="An older car that needs to be upgraded" class="relative top-[-2px] transform rotate-[-7deg] -left-1">
-            <h2 class="text-2xl font-bold font-display">Upgrade Guides</h2>
+            <h2 class="text-2xl font-bold font-display">Geçiş Rehberi</h2>
         </header>
-        <p class="text-sm font-mono-alt">For when it's time to get that older Statamic site onto v3.</p>
+        <p class="text-sm font-mono-alt">Eski sisteminizden Eveys'e nasıl geçilir öğrenin.</p>
     </a>
     <a href="https://statamic.com/discord" class="bg-white border shadow-stack-sm hover:shadow-stack-yellow-sm rounded-sm p-5 hover:bg-gradient-to-tl from-gray-lightest dark:bg-none dark:bg-gray-darkest dark:text-white dark:shadow-none">
         <header class="flex items-center mb-3" x-data="{active: 1}" x-init="setInterval(() => { if (active === 9) { active = 0; }; active++ }, 1500)">
@@ -63,15 +63,15 @@
             <img :style="{ 'display': active === 7 ? 'block' : 'none' }" src="/img/people/person-7.svg" alt="A person representing the community">
             <img :style="{ 'display': active === 8 ? 'block' : 'none' }" src="/img/people/person-8.svg" alt="A person representing the community">
             <img :style="{ 'display': active === 9 ? 'block' : 'none' }" src="/img/people/person-9.svg" alt="A person representing the community">
-            <h2 class="text-2xl ml-2 font-bold font-display">Community</h2>
+            <h2 class="text-2xl ml-2 font-bold font-display">Destek</h2>
         </header>
-        <p class="text-sm font-mono-alt">Hang out with truly exceptional devs & designers on Discord.</p>
+        <p class="text-sm font-mono-alt">Her ihtiyacınızda yanınızda olmak ve size destek vermek için buradayız.</p>
     </a>
 </div>
 
 <section class="markdown mt-6 md:mt-20">
-    <h2>Recent Updates</h2>
-    <p>Keep your Statamic superpowers up-to-date with the latest updates to the docs.</p>
+    <h2>Son Güncellemeler</h2>
+    <p>Eveys süper güçlerinizi en son dökümantasyon güncellemeleri ile her zaman güncel tutun.</p>
     <table>
         <thead>
             <th>Page</th>
